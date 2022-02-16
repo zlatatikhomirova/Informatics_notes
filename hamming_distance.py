@@ -68,7 +68,7 @@ print("Всего мутаций (подсчет по триплетам): ", ha
 														triplet_like_3_seq.split()))
 print("Уникальных мутаций (подсчет по триплетам): ", hamming_distance(triplet_like_1_seq.split(), triplet_like_2_seq.split(), triplet_like_3_seq.split()))
 
-
+# Вариант функции hamming_distance_unique не являющийся эффективным:
 # def hamming_distance_unique(seq_1: str, seq_2: str, seq_3: str) -> int:
 # 	def hamming_distance_how_diffs(seq_1: str, seq_2: str) -> int:
 # 	    distance_how = []
